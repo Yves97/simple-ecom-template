@@ -1,0 +1,161 @@
+/************->VARIABLES*********<-*/
+:root{
+    --color-black: #000;
+    --color-white: #fff;
+    --white-fade: #f1f6f7;
+    --color-gray: rgb(61, 61, 61);
+    --primary-color: rgb(228, 71, 97);
+    --accessibility-true: rgb(0, 112, 0);
+    --accessibility-false: rgb(189, 16, 16);
+}
+/*------------------------------------*/
+
+
+/************->FONTS*********<-*/
+@import url('https://fonts.googleapis.com/css?family=Abel|Inconsolata|Indie+Flower|Open+Sans+Condensed:300|Quicksand|Raleway|Teko|Zhi+Mang+Xing&display=swap');
+/*------------------------------------*/
+
+/************->GENERAL*********<-*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    color: var(--color-black);
+    box-sizing: border-box;
+    font-size: 1.6rem;
+    background: linear-gradient(to left ,rgb(228, 71, 97),rgb(241, 146, 162),rgba(177, 40, 63, 0.822),pink);
+    padding: 1.5rem;
+    /* font-family: 'Zhi Mang Xing', cursive; */
+    /* font-family: 'Raleway', sans-serif; */
+    /* font-family: 'Open Sans Condensed', sans-serif; */
+    font-family: 'Quicksand', sans-serif;
+    /* font-family: 'Teko', sans-serif; */
+    /* font-family: 'Inconsolata', monospace; */
+    /* font-family: 'Abel', sans-serif; */
+    /* font-family: 'Indie Flower', cursive; */
+}
+
+a,a:hover{
+    text-decoration: none;
+}
+
+ul li{
+    list-style: none;
+}
+/*------------------------------------*/
+
+/************->INDEX PAGE *********<-*/
+.main-card{
+    padding: 2rem 0;
+    min-height: 96vh;
+    background: var(--white-fade);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.253);
+    border-top-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+
+.card-shop{
+    position: relative;
+    height: 35rem;
+    width: 100%;
+    margin-bottom: 2.5rem;
+    padding: .5rem;
+}
+
+.banner-info{
+    position: absolute;
+    bottom: -3rem;
+    right: -1.2rem;
+    padding: .7rem;
+    background:var(--white-fade);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.582);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-bottom: 2rem;
+}
+
+.banner-info h3, .banner-info p{
+    margin-bottom: 0;
+    font-weight: bold;
+}
+
+.accessibility{
+    font-weight: normal !important;
+    font-style: italic;
+}
+
+.accessibility-true{
+    color: var(--accessibility-true) !important;
+}
+
+.accessibility-false{
+    color: var(--accessibility-false) !important;
+}
+
+.banner-info span{
+    font-weight: normal;
+}
+
+.banner-info button{
+    background: var(--color-white);
+    color: var(--primary-color);
+    border:1px solid var(--primary-color);
+    padding: .1rem .3rem;
+    margin-top: .5rem;
+    cursor: pointer;
+    transition: all .2s;
+    border-radius: 3px;
+}
+
+.banner-info button:hover{
+    background: var(--primary-color);
+    color: var(--color-white);
+}
+/*------------------------------------*/
+
+/************->DETAILS PAGE *********<-*/
+
+.img-product{
+    height: 80vh;
+}
+
+.info-product{
+    background: var(--color-white);
+    padding: 1.5rem 1rem;
+}
+
+.info-product h2,.info-product span{
+    margin-bottom: 2rem;
+}
+
+.info-product h2{
+    font-size: 3rem;
+}
+
+.info-product span{
+    font-size: 2rem;
+    color: var(--primary-color);
+    font-weight: bold;
+}
+
+.info-product span ~ p{
+    margin: 1.5rem 0;
+}
+
+.info-product hr{
+    width: 20rem;
+    height: .2rem;
+    border-radius: 30px;
+    background: var(--primary-color);
+}
+
+
+/*------------------------------------*/
