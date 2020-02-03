@@ -36,9 +36,9 @@ body{
     /* font-family: 'Zhi Mang Xing', cursive; */
     /* font-family: 'Raleway', sans-serif; */
     /* font-family: 'Open Sans Condensed', sans-serif; */
-    font-family: 'Quicksand', sans-serif;
+    /* font-family: 'Quicksand', sans-serif; */
     /* font-family: 'Teko', sans-serif; */
-    /* font-family: 'Inconsolata', monospace; */
+    font-family: 'Inconsolata', monospace;
     /* font-family: 'Abel', sans-serif; */
     /* font-family: 'Indie Flower', cursive; */
 }
@@ -68,6 +68,12 @@ ul li{
     width: 100%;
     margin-bottom: 2.5rem;
     padding: .5rem;
+    transition: all 0.3s;
+}
+
+.card-shop:hover{
+    background-size: 120% !important;
+    
 }
 
 .banner-info{
