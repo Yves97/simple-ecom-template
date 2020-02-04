@@ -55,7 +55,7 @@ ul li{
 /************->INDEX PAGE *********<-*/
 .main-card{
     padding: 2rem 0;
-    min-height: 96vh;
+    min-height: 95vh;
     background: var(--white-fade);
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.253);
     border-top-left-radius: 7px;
@@ -133,7 +133,7 @@ ul li{
     font-weight: normal;
 }
 
-.banner-info button{
+.banner-info button, .info-product button{
     background: var(--color-white);
     color: var(--primary-color);
     border:1px solid var(--primary-color);
@@ -144,7 +144,7 @@ ul li{
     border-radius: 3px;
 }
 
-.banner-info button:hover{
+.banner-info button:hover, .info-product button:hover{
     background: var(--primary-color);
     color: var(--color-white);
 }
@@ -153,7 +153,9 @@ ul li{
 /************->DETAILS PAGE *********<-*/
 
 .img-product{
-    height: 80vh;
+    height: 70vh;
+    transition: all .3s;
+    margin-bottom: 2rem;
 }
 
 .info-product{
@@ -186,5 +188,18 @@ ul li{
     background: var(--primary-color);
 }
 
+.desc-card h3{
+    font-size: 2.5rem;
+}
+
+.confirm-btn{
+    color: var(--accessibility-true) !important;
+    border: 1px solid var(--accessibility-true) !important;
+}
+
+.confirm-btn:hover{
+    background: var(--accessibility-true) !important;
+    color: var(--color-white) !important; 
+}
 
 /*------------------------------------*/
